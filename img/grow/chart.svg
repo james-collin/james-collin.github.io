@@ -1,0 +1,95 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 507.19922 541.02344">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #eaeaea;
+        stroke-width: 2px;
+      }
+
+      .cls-2, .cls-3 {
+        isolation: isolate;
+      }
+
+      .cls-3 {
+        font-size: 24px;
+        fill: #aaaeb3;
+        font-family: OpenSans-Light, Open Sans;
+      }
+
+      .cls-4 {
+        filter: url(#filter-3);
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-6 {
+        filter: url(#filter-6);
+      }
+
+      .cls-7 {
+        fill: url(#linear-gradient-2);
+      }
+    </style>
+    <filter id="filter-3" x="-25" y="-17.7" width="150" height="149.6" name="filter-3">
+      <feOffset result="shadowOffsetOuter1" dy="20" in="SourceAlpha"/>
+      <feGaussianBlur result="shadowBlurOuter1" stdDeviation="20" in="shadowOffsetOuter1"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0" in="shadowBlurOuter1"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="-383.17857" y1="783.70646" x2="-384.17857" y2="782.70646" gradientTransform="matrix(280, 0, 0, -282, 107675.9375, 221128.29297)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a389d4"/>
+      <stop offset="1" stop-color="#899ed4"/>
+    </linearGradient>
+    <filter id="filter-6" x="-26.1" y="-13.3" width="152.3" height="153.3" name="filter-6">
+      <feOffset result="shadowOffsetOuter1" dy="40" in="SourceAlpha"/>
+      <feGaussianBlur result="shadowBlurOuter1" stdDeviation="20" in="shadowOffsetOuter1"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0" in="shadowBlurOuter1"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="-383.3342" y1="783.79614" x2="-384.3342" y2="782.79614" gradientTransform="matrix(306, 0, 0, -300, 117684.5625, 235250.48828)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1de9b6"/>
+      <stop offset="1" stop-color="#1dc4e9"/>
+    </linearGradient>
+  </defs>
+  <title>Bottom_right_chart</title>
+  <g id="v1-login-flow">
+    <g id="TT_Landing_0908717_rsv2" data-name="TT Landing 0908717 rsv2">
+      <g id="Section-3">
+        <g id="Graph">
+          <polygon id="Polygon" class="cls-1" points="254.438 48.566 444.963 158.566 444.963 378.566 254.438 488.566 63.912 378.566 63.912 158.566 254.438 48.566"/>
+          <g id="Jan" class="cls-2">
+            <text class="cls-3" transform="translate(238.03711 20.56641)">Jan</text>
+          </g>
+          <g id="Apr" class="cls-2">
+            <text class="cls-3" transform="translate(236.42383 534.56641)">Apr</text>
+          </g>
+          <g id="Feb" class="cls-2">
+            <text class="cls-3" transform="translate(464.4375 160.56641)">Feb</text>
+          </g>
+          <g id="Jun" class="cls-2">
+            <text class="cls-3" transform="translate(10.19531 160.56641)">Jun</text>
+          </g>
+          <g id="Mar" class="cls-2">
+            <text class="cls-3" transform="translate(464.4375 388.56641)">Mar</text>
+          </g>
+          <g id="May" class="cls-2">
+            <text class="cls-3" transform="translate(0 388.56641)">May</text>
+          </g>
+          <g id="Path-27">
+            <g class="cls-4">
+              <polygon id="path-2" points="181.438 122.566 105.438 340.566 311.438 404.566 385.438 220.566 341.438 138.566 247.438 142.566 181.438 122.566"/>
+            </g>
+            <polygon id="path-2-2" data-name="path-2" class="cls-5" points="181.438 122.566 105.438 340.566 311.438 404.566 385.438 220.566 341.438 138.566 247.438 142.566 181.438 122.566"/>
+          </g>
+          <g id="Path-26">
+            <g class="cls-6">
+              <polygon id="path-5" points="89.438 178.566 240.438 316.566 251.438 422.566 379.438 338.566 395.438 192.566 263.438 122.566 89.438 178.566"/>
+            </g>
+            <polygon id="path-5-2" data-name="path-5" class="cls-7" points="89.438 178.566 240.438 316.566 251.438 422.566 379.438 338.566 395.438 192.566 263.438 122.566 89.438 178.566"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Treasure</title>
+    <meta charset="utf-8"/>
+    <meta content="Illia Lebid" name="author"/>
+    <meta content="treasure" name="description"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+    <link rel="shortcut icon" href="img/favicon/favicon.png" type="image/x-icon"/>
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png"/>
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-touch-icon-144x144.png"/>
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-touch-icon-152x152.png"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png"/>
+    <!-- build:css css/vendor.css-->
+    <link rel="stylesheet" href="css/nouislider.min.css"/>
+    <link rel="stylesheet" href="css/chart.css"/>
+    <!-- endbuild-->
+    <!-- build:css css/main.css-->
+    <link rel="stylesheet" href="css/main.css"/>
+    <!-- endbuild-->
+  </head>
+  <body class="page">
+    <div class="page__wrap">
+      <div class="page__aside">
+        <MAIN class="main">
+          <header class="header">
+            <div class="container">
+              <div class="wrapper">
+                <div class="wrapper__logo">
+                </div>
+              </div>
+            </div>
+          </header>
+          <aside class="aside">
+          </aside>
+          <section class="start">
+            <div class="container">
+              <div class="start-wrapper">
+                <div class="start-wrapper__left-hero">
+                  <div class="start-wrapper__title"> 
+                    <h3>Automated Financial Management
+                    </h3>
+                  </div>
+                  <div class="start-wrapper__content">Treasure provides an easy-to-use, automated platform that offers a single look at your financial status — highlighting inefficiencies and turning them into competitive advantages.
+                  </div>
+                  <BUTTON class="btn">REQUEST EARLY ACCESS</BUTTON>
+                </div>
+                <div class="start-wrapper__right-hero">
+                  <div class="start-wrapper__laptop">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="management">
+            <div class="container">
+              <div class="hero-block">
+                <div class="hero-block__wrapper">
+                  <H3>Bank Account Management</H3>
+                  <div class="hero-block__content">An intuitively designed dashboard, connecting all of your accounts, offers up-to-the-minute snapshots of your company's financial health.
+                  </div>
+                </div>
+                <div class="hero-block__wrapper">
+                  <H3>Cash Management</H3>
+                  <div class="hero-block__content bottom">Three investment vehicles allow businesses to maximize their market advantage, regardless of treasury experience.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="management__footer">
+            </div>
+          </section>
+          <section class="grow">
+            <div class="container">
+              <div class="grow-wrapper">
+                <div class="left-side">
+                  <h3>See how much you could grow with Treasure
+                  </h3>
+                  <div class="left-side__content">Three investment vehicles allow businesses to maximize their market advantage, regardless of treasury experience.
+                  </div><span class="left-side__slider-value" id="value"></span>
+                  <input type="hidden" name="starting_deposit" value="20000000"/>
+                  <div class="left-side__slider-fixed-values"><span class="left-side__left-value">0</span><span class="left-side__right-value">$10+ M</span>
+                  </div>
+                  <div class="left-side__slider" id="sliderFirst">
+                  </div><span class="left-side__slider-value" id="upper-value"></span>
+                  <input type="hidden" name="monthly_cash_flow" value="75000"/>
+                  <div class="left-side__slider-fixed-values"><span class="left-side__left-value">0</span><span class="left-side__right-value">$10+ M</span>
+                  </div>
+                  <div class="left-side__slider" id="sliderSecond">
+                  </div>
+                  <button class="btn">REQUEST EARLY ACCESS</button>
+                </div>
+                <div class="right-side">
+                  <div class="right-side__chart">
+                    <div class="js-chart">
+                      <div id="d3chart"></div>
+                      <div class="legend">
+                        <ul>
+                          <li id="treasure"><span class="icon">Treasure</span><span class="apy">1.15%</span></li>
+                          <li id="community"><span class="icon">Community Banks</span><span class="apy">0.75%</span></li>
+                          <li id="insitutional"><span class="icon">Institutional Banks</span><span class="apy">0.25%</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <footer class="footer">
+            <div class="container">
+              <div class="footer-wrapper"><span>Treasure © 2017 · All rights reserved.</span><span>founders@treasure.tech</span>
+              </div>
+            </div>
+          </footer>
+        </MAIN>
+      </div>
+    </div>
+    <!-- build:js js/vendor.js-->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/nouislider.min.js"></script>
+    <script src="https://d3js.org/d3.v3.js"></script>
+    <!-- endbuild-->
+    <!-- build:js js/main.js-->
+    <script src="js/main.js"></script>
+    <script src="js/d3.js"></script>
+    <!-- endbuild-->
+  </body>
+</html>
