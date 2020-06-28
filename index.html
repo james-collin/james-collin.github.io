@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belly Button Washing Frecuency</title>
+  </head>
+  <body>
+    <h1 style="text-align: center;">Belly Button Washing Frecuency</h1>
+    <div style="display: flex;">
+      <div id="info-container" style="width: 20%; margin: 20px;">
+        <div
+          id="dropdown"
+          style="
+            padding: 10px 15px 15px 15px;
+            justify-content: center;
+            margin-bottom: 1em;
+            border-radius: 10px;
+          "
+        >
+          <p style="font-weight: bold;">
+            Choose an ID Number
+            <select
+              name="items"
+              id="names"
+              style="width: max-content;"
+            ></select>
+          </p>
+        </div>
+        <div
+          id="info"
+          style="
+            padding: 2px 16px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+          "
+        >
+          <h3 style="align-items: center;">Demografic Info</h3>
+          <p id="info-id">id:</p>
+          <p id="info-ethnicity">ethnicity:</p>
+          <p id="info-gender">gender:</p>
+          <p id="info-age">age:</p>
+          <p id="info-location">location:</p>
+          <p id="info-bbtype">bbtype:</p>
+          <p id="info-wfreq">wfreq:</p>
+        </div>
+      </div>
+      <div id="data-container" style="margin: 20px;">
+        <div id="graph-container">
+          <div
+            id="horizontal-bar-chart"
+            style="width: max-content; height: 40%;"
+          ></div>
+          <div id="bubble-chart" style="width: auto; height: 40%;"></div>
+        </div>
+      </div>
+    </div>
+    <p style="text-align: center;">
+      Built with Plotly. (<a href="https://plot.ly/javascript/"
+        >Go to Plotly Documentation</a
+      >)
+    </p>
+  </body>
+  <script src="js/plotly-latest.min.js"></script>
+  <script type="text/javascript" src="ChartCreator.js"></script>
+</html>
